@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-## View live project [**HERE**]()!
+## View live project [**HERE**](https://seun-a.github.io/quote-generator/)!
 #
 Randomly fetches from a json file which is working like a database to get the random quote.
 
