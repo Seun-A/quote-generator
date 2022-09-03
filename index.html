@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=mp3quack.plus">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+  </head>
+
+
+  <body class="text-dark text-center d-flex justify-content-center align-items-center">
+    <div class="quote-container px-3 py-4 my-auto mx-3" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text fs-4">
+        <i class="fas fa-quote-left fs-1"></i>
+        <!-- Quote itself (Manipulated in JS) -->
+        <span id="quote"></span>
+      </div>
+      
+      <!-- Author -->
+      <div class="my-3 fs-5 fst-italic fw-light">
+        <span id="author">
+          <i class="fas fa-feather-alt"></i>
+        </span>
+      </div>
+      
+      <!-- Buttons -->
+      <div class="mt-4 d-flex justify-content-between">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote" title="Create New Quote">New Quote</button>
+      </div>
+    </div>
+      
+      <!-- W3SCHOOLS LOADER -->
+    <div id="loader">
+      <div class="loader mx-auto"></div>
+      <div class="loaderText fs-2 mt-4 text-secondary fw-bold">Please reload</div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
